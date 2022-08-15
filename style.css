@@ -39,8 +39,16 @@ border: 1px dotted red;   /* видалити */
 }
 
 .header_time {
-	border: 1px solid blue;   /* видалити */
+	border: 1px dotted blue;   /* видалити */
 }
+.time {
+	font-size: 48px;
+	min-width: 320px;
+	
+	
+	border: 1px dotted yellow;
+}
+
 
 .nav_link {
 	font-size: 22px;
@@ -64,5 +72,7 @@ height: 100vh;
 background: url("https://drive.google.com/uc?export=view&id=1UwjOww5ATCD6JRt-3Ns8PzKbBxOcYhHC") center no-repeat;
 background-size: cover;
 }
+
+
 
 
