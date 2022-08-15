@@ -1,9 +1,62 @@
 body {
 margin: 0;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
 }
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+
+border: 1px dotted red;   /* видалити */
+}
+
+.header {
+	width: 100%;
+	padding: 30px 0;
+
+	position: absolute;
+	
+	border: 1px dotted green;   /* видалити */
+}
+.header_inner {
+	display: flex;
+	justify-content: space-between; /* вирівняти текст по краям */
+	align-items: center;  /* вирівняти по горизонталі по центру  */
+
+}
+.header_logo {
+	font-size: 48px;
+	font-weight: 900;
+	font-family: 'Kaushan+Script', sans-serif;
+}
+
+.header_time {
+	border: 1px dotted green;   /* видалити */
+}
+
+.nav_link {
+	font-size: 22px;
+	text-decoration: none;
+	margin: 0 15px;
+	color: #000;
+	
+	text-decoration: underline;
+
+}
+
 
 .intro {
 display: flex;
+flex-direction: column;
+justify-content: center;
 
 margin: 0;
 width: 100%;
@@ -13,6 +66,3 @@ background-size: cover;
 }
 
 
-.container {
-margin: 0;
-}
