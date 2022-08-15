@@ -15,7 +15,7 @@ width: 100%;
 max-width: 1200px;
 margin: 0 auto;
 
-border: 3px dotted red;   /* видалити */
+border: 1px dotted red;   /* видалити */
 }
 
 .header {
@@ -24,7 +24,7 @@ border: 3px dotted red;   /* видалити */
 
 	position: absolute;
 	
-	border: 3px dotted green;   /* видалити */
+	border: 1px dotted green;   /* видалити */
 }
 .header_inner {
 	display: flex;
@@ -39,7 +39,7 @@ border: 3px dotted red;   /* видалити */
 }
 
 .header_time {
-	border: 3px solid blue;   /* видалити */
+	border: 1px solid blue;   /* видалити */
 }
 
 .nav_link {
